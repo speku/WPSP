@@ -13,11 +13,11 @@ private:
 
 public:
 
-	Point(double lat, double lon, string name = "");
+	Point(double lat, double lon, string name);
 
-	double lat();
-	double lon();
-	string name();
+	double lat() const;
+	double lon() const;
+	string name() const;
 
 	void Print();
 

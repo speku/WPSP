@@ -1,7 +1,6 @@
 #pragma once
 #include <string>
 #include "Point.h"
-#include "PointList.h"
 
 using namespace std;
 
