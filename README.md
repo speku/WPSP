@@ -1,0 +1,2 @@
+# WPSP
+exercises for WPSP
