@@ -1,6 +1,8 @@
 #pragma once
 #include <string>
 
+// author: Maximilian Roeck - Matrikelnummer: 185594
+
 using namespace std;
 
 class Point {

@@ -4,6 +4,7 @@
 #include "DistanceCalculator.h"
 #include <iostream>
 
+// author: Maximilian Roeck - Matrikelnummer: 185594
 
 #define DEG_TO_RAD 0.0174532925199432958
 

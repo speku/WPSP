@@ -5,6 +5,8 @@
 #include "PointList.h"
 #include <iostream>
 
+// author: Maximilian Roeck - Matrikelnummer: 185594
+
 int main()
 {
 	PointList * pTheList = new PointList();

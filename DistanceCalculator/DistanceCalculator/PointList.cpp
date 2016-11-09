@@ -5,6 +5,7 @@
 #include "PointList.h"
 #include "DistanceCalculator.h"
 
+// author: Maximilian Roeck - Matrikelnummer: 185594
 
 using namespace std;
 

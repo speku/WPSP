@@ -2,6 +2,8 @@
 #include <string>
 #include "Point.h"
 
+// author: Maximilian Roeck - Matrikelnummer: 185594
+
 using namespace std;
 
 class DistanceCalculator {
