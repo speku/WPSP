@@ -1,9 +1,0 @@
-C:\Users\speku\Documents\WPSP\PlayerCards\PlayerCards\bin\Debug\PlayerCards.exe.config
-C:\Users\speku\Documents\WPSP\PlayerCards\PlayerCards\bin\Debug\PlayerCards.exe
-C:\Users\speku\Documents\WPSP\PlayerCards\PlayerCards\bin\Debug\PlayerCards.pdb
-C:\Users\speku\Documents\WPSP\PlayerCards\PlayerCards\obj\Debug\PlayerCards.playerCard.resources
-C:\Users\speku\Documents\WPSP\PlayerCards\PlayerCards\obj\Debug\PlayerCards.Properties.Resources.resources
-C:\Users\speku\Documents\WPSP\PlayerCards\PlayerCards\obj\Debug\PlayerCards.csproj.GenerateResource.Cache
-C:\Users\speku\Documents\WPSP\PlayerCards\PlayerCards\obj\Debug\PlayerCards.exe
-C:\Users\speku\Documents\WPSP\PlayerCards\PlayerCards\obj\Debug\PlayerCards.pdb
-C:\Users\speku\Documents\WPSP\PlayerCards\PlayerCards\obj\Debug\PlayerCards.csprojResolveAssemblyReference.cache

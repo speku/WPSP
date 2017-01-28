@@ -79,7 +79,16 @@ namespace PlayerCards
             };
 
             // layout and additional setup stuff
-            playerSelection.SelectedIndex = 0;
+
+            // dealing with missing player data
+            if (playerSelection.Items.Count > 0)
+            {
+                playerSelection.SelectedIndex = 0;
+            }
+            else
+            {
+                EnableButtons(false, first, previous, last, next);
+            }
         }
 
 

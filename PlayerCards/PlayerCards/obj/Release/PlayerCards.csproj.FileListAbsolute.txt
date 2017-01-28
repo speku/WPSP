@@ -1,8 +1,0 @@
-C:\Users\speku\Documents\WPSP\PlayerCards\PlayerCards\bin\Release\PlayerCards.exe.config
-C:\Users\speku\Documents\WPSP\PlayerCards\PlayerCards\bin\Release\PlayerCards.exe
-C:\Users\speku\Documents\WPSP\PlayerCards\PlayerCards\bin\Release\PlayerCards.pdb
-C:\Users\speku\Documents\WPSP\PlayerCards\PlayerCards\obj\Release\PlayerCards.playerCard.resources
-C:\Users\speku\Documents\WPSP\PlayerCards\PlayerCards\obj\Release\PlayerCards.Properties.Resources.resources
-C:\Users\speku\Documents\WPSP\PlayerCards\PlayerCards\obj\Release\PlayerCards.csproj.GenerateResource.Cache
-C:\Users\speku\Documents\WPSP\PlayerCards\PlayerCards\obj\Release\PlayerCards.exe
-C:\Users\speku\Documents\WPSP\PlayerCards\PlayerCards\obj\Release\PlayerCards.pdb
