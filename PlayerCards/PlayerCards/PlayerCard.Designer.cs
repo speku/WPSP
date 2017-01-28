@@ -75,7 +75,7 @@
             // team
             // 
             this.team.AutoSize = true;
-            this.team.Location = new System.Drawing.Point(723, 33);
+            this.team.Location = new System.Drawing.Point(652, 33);
             this.team.Name = "team";
             this.team.Size = new System.Drawing.Size(67, 13);
             this.team.TabIndex = 2;
@@ -83,10 +83,10 @@
             // 
             // playerData
             // 
-            this.playerData.AutoSize = true;
+            this.playerData.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.playerData.ColumnCount = 2;
-            this.playerData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.83193F));
-            this.playerData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 70.16807F));
+            this.playerData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 37.37374F));
+            this.playerData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 62.62626F));
             this.playerData.Controls.Add(this.matches, 1, 10);
             this.playerData.Controls.Add(this.nation, 1, 9);
             this.playerData.Controls.Add(this.games, 1, 8);
@@ -112,104 +112,104 @@
             this.playerData.Location = new System.Drawing.Point(323, 80);
             this.playerData.Name = "playerData";
             this.playerData.RowCount = 11;
-            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40.74074F));
-            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 59.25926F));
-            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 46F));
-            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42F));
-            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42F));
-            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 41F));
-            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
-            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
-            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.playerData.Size = new System.Drawing.Size(476, 428);
+            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.playerData.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.playerData.Size = new System.Drawing.Size(396, 397);
             this.playerData.TabIndex = 17;
             // 
             // matches
             // 
-            this.matches.Location = new System.Drawing.Point(144, 410);
+            this.matches.Location = new System.Drawing.Point(151, 263);
             this.matches.Name = "matches";
             this.matches.ReadOnly = true;
-            this.matches.Size = new System.Drawing.Size(305, 20);
+            this.matches.Size = new System.Drawing.Size(231, 20);
             this.matches.TabIndex = 16;
             // 
             // nation
             // 
-            this.nation.Location = new System.Drawing.Point(144, 378);
+            this.nation.Location = new System.Drawing.Point(151, 237);
             this.nation.Name = "nation";
             this.nation.ReadOnly = true;
-            this.nation.Size = new System.Drawing.Size(305, 20);
+            this.nation.Size = new System.Drawing.Size(231, 20);
             this.nation.TabIndex = 15;
             // 
             // games
             // 
-            this.games.Location = new System.Drawing.Point(144, 340);
+            this.games.Location = new System.Drawing.Point(151, 211);
             this.games.Name = "games";
             this.games.ReadOnly = true;
-            this.games.Size = new System.Drawing.Size(305, 20);
+            this.games.Size = new System.Drawing.Size(231, 20);
             this.games.TabIndex = 14;
             // 
             // weight
             // 
-            this.weight.Location = new System.Drawing.Point(144, 305);
+            this.weight.Location = new System.Drawing.Point(151, 185);
             this.weight.Name = "weight";
             this.weight.ReadOnly = true;
-            this.weight.Size = new System.Drawing.Size(305, 20);
+            this.weight.Size = new System.Drawing.Size(231, 20);
             this.weight.TabIndex = 13;
             // 
             // height
             // 
-            this.height.Location = new System.Drawing.Point(144, 264);
+            this.height.Location = new System.Drawing.Point(151, 159);
             this.height.Name = "height";
             this.height.ReadOnly = true;
-            this.height.Size = new System.Drawing.Size(305, 20);
+            this.height.Size = new System.Drawing.Size(231, 20);
             this.height.TabIndex = 12;
             // 
             // birth
             // 
-            this.birth.Location = new System.Drawing.Point(144, 222);
+            this.birth.Location = new System.Drawing.Point(151, 133);
             this.birth.Name = "birth";
             this.birth.ReadOnly = true;
-            this.birth.Size = new System.Drawing.Size(305, 20);
+            this.birth.Size = new System.Drawing.Size(231, 20);
             this.birth.TabIndex = 11;
             // 
             // accession
             // 
-            this.accession.Location = new System.Drawing.Point(144, 172);
+            this.accession.Location = new System.Drawing.Point(151, 107);
             this.accession.Name = "accession";
             this.accession.ReadOnly = true;
-            this.accession.Size = new System.Drawing.Size(305, 20);
+            this.accession.Size = new System.Drawing.Size(231, 20);
             this.accession.TabIndex = 10;
             // 
             // number
             // 
-            this.number.Location = new System.Drawing.Point(144, 130);
+            this.number.Location = new System.Drawing.Point(151, 81);
             this.number.Name = "number";
             this.number.ReadOnly = true;
-            this.number.Size = new System.Drawing.Size(305, 20);
+            this.number.Size = new System.Drawing.Size(231, 20);
             this.number.TabIndex = 9;
             // 
             // position
             // 
-            this.position.Location = new System.Drawing.Point(144, 84);
+            this.position.Location = new System.Drawing.Point(151, 55);
             this.position.Name = "position";
             this.position.ReadOnly = true;
-            this.position.Size = new System.Drawing.Size(305, 20);
+            this.position.Size = new System.Drawing.Size(231, 20);
             this.position.TabIndex = 8;
             // 
             // name
             // 
-            this.name.Location = new System.Drawing.Point(144, 36);
+            this.name.Location = new System.Drawing.Point(151, 29);
             this.name.Name = "name";
             this.name.ReadOnly = true;
-            this.name.Size = new System.Drawing.Size(305, 20);
+            this.name.Size = new System.Drawing.Size(231, 20);
             this.name.TabIndex = 7;
             // 
             // matchesLabel
             // 
             this.matchesLabel.AutoSize = true;
-            this.matchesLabel.Location = new System.Drawing.Point(3, 407);
+            this.matchesLabel.Location = new System.Drawing.Point(3, 260);
             this.matchesLabel.Name = "matchesLabel";
             this.matchesLabel.Size = new System.Drawing.Size(70, 13);
             this.matchesLabel.TabIndex = 13;
@@ -227,7 +227,7 @@
             // positionLabel
             // 
             this.positionLabel.AutoSize = true;
-            this.positionLabel.Location = new System.Drawing.Point(3, 81);
+            this.positionLabel.Location = new System.Drawing.Point(3, 52);
             this.positionLabel.Name = "positionLabel";
             this.positionLabel.Size = new System.Drawing.Size(47, 13);
             this.positionLabel.TabIndex = 4;
@@ -236,7 +236,7 @@
             // numberLabel
             // 
             this.numberLabel.AutoSize = true;
-            this.numberLabel.Location = new System.Drawing.Point(3, 127);
+            this.numberLabel.Location = new System.Drawing.Point(3, 78);
             this.numberLabel.Name = "numberLabel";
             this.numberLabel.Size = new System.Drawing.Size(85, 13);
             this.numberLabel.TabIndex = 6;
@@ -245,7 +245,7 @@
             // accessionLabel
             // 
             this.accessionLabel.AutoSize = true;
-            this.accessionLabel.Location = new System.Drawing.Point(3, 169);
+            this.accessionLabel.Location = new System.Drawing.Point(3, 104);
             this.accessionLabel.Name = "accessionLabel";
             this.accessionLabel.Size = new System.Drawing.Size(73, 13);
             this.accessionLabel.TabIndex = 7;
@@ -254,7 +254,7 @@
             // birthLabel
             // 
             this.birthLabel.AutoSize = true;
-            this.birthLabel.Location = new System.Drawing.Point(3, 219);
+            this.birthLabel.Location = new System.Drawing.Point(3, 130);
             this.birthLabel.Name = "birthLabel";
             this.birthLabel.Size = new System.Drawing.Size(68, 13);
             this.birthLabel.TabIndex = 8;
@@ -263,7 +263,7 @@
             // heightLabel
             // 
             this.heightLabel.AutoSize = true;
-            this.heightLabel.Location = new System.Drawing.Point(3, 261);
+            this.heightLabel.Location = new System.Drawing.Point(3, 156);
             this.heightLabel.Name = "heightLabel";
             this.heightLabel.Size = new System.Drawing.Size(62, 13);
             this.heightLabel.TabIndex = 9;
@@ -272,7 +272,7 @@
             // weightLabel
             // 
             this.weightLabel.AutoSize = true;
-            this.weightLabel.Location = new System.Drawing.Point(3, 302);
+            this.weightLabel.Location = new System.Drawing.Point(3, 182);
             this.weightLabel.Name = "weightLabel";
             this.weightLabel.Size = new System.Drawing.Size(70, 13);
             this.weightLabel.TabIndex = 10;
@@ -281,7 +281,7 @@
             // gamesLabel
             // 
             this.gamesLabel.AutoSize = true;
-            this.gamesLabel.Location = new System.Drawing.Point(3, 337);
+            this.gamesLabel.Location = new System.Drawing.Point(3, 208);
             this.gamesLabel.Name = "gamesLabel";
             this.gamesLabel.Size = new System.Drawing.Size(121, 13);
             this.gamesLabel.TabIndex = 11;
@@ -290,7 +290,7 @@
             // nationLabel
             // 
             this.nationLabel.AutoSize = true;
-            this.nationLabel.Location = new System.Drawing.Point(3, 375);
+            this.nationLabel.Location = new System.Drawing.Point(3, 234);
             this.nationLabel.Name = "nationLabel";
             this.nationLabel.Size = new System.Drawing.Size(41, 13);
             this.nationLabel.TabIndex = 12;
@@ -299,7 +299,7 @@
             // nameLabel
             // 
             this.nameLabel.AutoSize = true;
-            this.nameLabel.Location = new System.Drawing.Point(3, 33);
+            this.nameLabel.Location = new System.Drawing.Point(3, 26);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(52, 13);
             this.nameLabel.TabIndex = 5;
@@ -307,10 +307,10 @@
             // 
             // surname
             // 
-            this.surname.Location = new System.Drawing.Point(144, 3);
+            this.surname.Location = new System.Drawing.Point(151, 3);
             this.surname.Name = "surname";
             this.surname.ReadOnly = true;
-            this.surname.Size = new System.Drawing.Size(305, 20);
+            this.surname.Size = new System.Drawing.Size(231, 20);
             this.surname.TabIndex = 6;
             // 
             // last
@@ -367,7 +367,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(811, 521);
+            this.ClientSize = new System.Drawing.Size(735, 486);
             this.Controls.Add(this.last);
             this.Controls.Add(this.next);
             this.Controls.Add(this.previous);
